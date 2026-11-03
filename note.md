@@ -28,6 +28,17 @@ How do we know which product to add?
 2. Export
 3. Import
 
+### import syntax
+```
+import { cart, addtoCart} from "../data/cart.js";
+
+or
+
+import * as cartModule from '../data/cart.js';
+cartModule.cart;
+cartModule.addToCart('id'); // import everything from the file named cart.js and group this together inside the object cartModule. we can access each import as a property or a method
+
+```
 ### type="module" attribute
 Let's this file get variables out of other files.
 
@@ -38,3 +49,9 @@ Let's this file get variables out of other files.
 ### Benefits of using module
 - helps us avoid naming conflicts
 - donot have to worry about the order of the file
+
+### entry point
+```
+<script type="module" src="scripts/amazon.js"></script>
+```
+
