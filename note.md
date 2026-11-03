@@ -19,3 +19,22 @@ How do we know which product to add?
 - have to start with "data-"
 - then give it any name
 - seperate the word with dash(-) i.e data-product-name which is also known as kebab-case
+
+### Modules
+- better way to organize our code espically in bigger projects
+
+### Get a Variable Out of a File
+1. Add type="module" attribute
+2. Export
+3. Import
+
+### type="module" attribute
+Let's this file get variables out of other files.
+
+### Things to remember while using modules
+- put all imports at the top of the file
+- we need to use live server
+
+### Benefits of using module
+- helps us avoid naming conflicts
+- donot have to worry about the order of the file
