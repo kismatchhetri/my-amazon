@@ -62,7 +62,7 @@ productGrid.innerHTML=productHTML;
 function updateCartQuantity(){
     let cartQuantity = 0;
     cart.forEach((cartItem)=>{
-      cartQuantity += cartItem.Quantity;
+      cartQuantity += cartItem.quantity;
     })
     console.log(cart);
     console.log(cartQuantity);

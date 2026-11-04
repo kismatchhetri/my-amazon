@@ -55,3 +55,4 @@ Let's this file get variables out of other files.
 <script type="module" src="scripts/amazon.js"></script>
 ```
 
+### Normilizing the data or deduplicating the data
