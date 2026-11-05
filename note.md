@@ -58,3 +58,7 @@ Let's this file get variables out of other files.
 ### Normilizing the data or deduplicating the data
 
 ### utils = utility
+
+### External Libraries
+- code that are written by others and we can use those codes in our projects
+- code that are outside of our projects
